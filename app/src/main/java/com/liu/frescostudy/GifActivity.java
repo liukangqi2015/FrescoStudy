@@ -54,7 +54,6 @@ public class GifActivity extends AppCompatActivity {
                 }
             }
         });
-        simpleDraweeView.setAspectRatio(1.33f);
     }
 
     private void setData() {

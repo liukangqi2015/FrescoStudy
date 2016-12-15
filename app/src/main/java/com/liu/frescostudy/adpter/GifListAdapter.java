@@ -3,6 +3,7 @@ package com.liu.frescostudy.adpter;
 import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -35,14 +36,20 @@ public class GifListAdapter extends RecyclerView.Adapter<GifListAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        String url=data.get(position);
-        if (!TextUtils.isEmpty(url)){
-            DraweeController controller = Fresco.newDraweeControllerBuilder()
-                    .setUri(Uri.parse(url))
-                    .setAutoPlayAnimations(true)
-                    .build();
-            holder.simpleDraweeView.setController(controller);
+        if (position<getItemCount()){
+            String url=data.get(position);
+            if (!TextUtils.isEmpty(url)){
+                Log.e("Adapter","position:"+position+"-url:"+url);
+                DraweeController controller = Fresco.newDraweeControllerBuilder()
+                        .setUri(Uri.parse(url))
+                        .setAutoPlayAnimations(true)
+                        .build();
+                holder.simpleDraweeView.setController(controller);
+            }
         }
+
+
+
     }
 
     @Override

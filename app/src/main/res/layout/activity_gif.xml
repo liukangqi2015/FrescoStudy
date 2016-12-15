@@ -7,12 +7,14 @@
     <com.facebook.drawee.view.SimpleDraweeView
         android:id="@+id/simple_dv"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
         />
     <Button
         android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:text="@string/play_or_pause"/>
 
 </LinearLayout>

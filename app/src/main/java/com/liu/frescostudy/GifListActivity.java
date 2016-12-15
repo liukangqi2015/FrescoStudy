@@ -5,6 +5,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 
 import com.liu.frescostudy.adpter.GifListAdapter;
 import com.liu.frescostudy.constant.Constant;
@@ -38,6 +39,7 @@ public class GifListActivity extends AppCompatActivity {
         int length=Constant.Url.GIF_ARRAY.length;
         for (int i = 0; i < length; i++) {
             urlList.add(Constant.Url.GIF_ARRAY[i]);
+            Log.e("TAG","position"+i+"-url:"+urlList.get(i));
         }
         recyclerView.setAdapter(new GifListAdapter(urlList));
     }
