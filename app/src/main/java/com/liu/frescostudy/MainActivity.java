@@ -8,7 +8,7 @@ import android.widget.Button;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private Button start_gif_btn;
+    private Button start_gif_btn,start_gif_list_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void initView() {
         start_gif_btn= (Button) findViewById(R.id.start_gif_btn);
+        start_gif_list_btn= (Button) findViewById(R.id.start_gif_list_btn);
         start_gif_btn.setOnClickListener(this);
+        start_gif_list_btn.setOnClickListener(this);
     }
 
     @Override
@@ -27,6 +29,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.start_gif_btn:
                 startActivity(new Intent(this,GifActivity.class));
+              break;
+            case R.id.start_gif_list_btn:
+                startActivity(new Intent(this,GifListActivity.class));
                 break;
             default:
                 break;

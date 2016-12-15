@@ -15,4 +15,14 @@
         android:layout_height="wrap_content"
         android:text="@string/The_use_of_loading_GIF"
         android:id="@+id/start_gif_btn" />
+
+    <Button
+        android:text="@string/gif_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_gif_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/start_gif_list_btn" />
+
 </RelativeLayout>
