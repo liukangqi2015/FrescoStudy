@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FrescoStudy</string>
+    <string name="The_use_of_loading_GIF">简单地加载GIF的使用</string>
+    <string name="play_or_pause">播放或暂停</string>
+</resources>
