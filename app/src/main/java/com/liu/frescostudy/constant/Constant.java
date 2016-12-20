@@ -19,5 +19,12 @@ public class Constant {
                 "http://www.joke98.com/uploads/allimg/160223/1-160223164419.gif",
                 "http://i.zeze.com/attachment/forum/201512/05/151615w2kafc9zlxt4f462.gif",
                 "http://img13.poco.cn/mypoco/myphoto/20120915/14/6427493720120915145648021.gif"};
+        public static final String[] IMG_ARRAY={
+                "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2312905006,2907269332&fm=23&gp=0.jpg",
+                "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3745461994,2361072494&fm=23&gp=0.jpg",
+                "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=75388702,2837218754&fm=23&gp=0.jpg",
+                "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=682050001,362829407&fm=23&gp=0.jpg",
+                "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2774948038,1587491358&fm=21&gp=0.jpg"
+        };
     }
 }

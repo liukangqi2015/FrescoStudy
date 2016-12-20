@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         fresco:placeholderImage="@color/wait_color"/>
-    <Button
+    <ImageView
         android:id="@+id/gif_control_btn"
         android:layout_width="35dp"
         android:layout_height="35dp"

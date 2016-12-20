@@ -15,6 +15,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="@string/play_or_pause"/>
+        android:text="@string/play_or_stop"/>
 
 </LinearLayout>
